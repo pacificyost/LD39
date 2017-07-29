@@ -1,23 +1,23 @@
 {
-    "id": "6bba8809-bcea-400a-944b-a70a4bbb1e66",
+    "id": "3be606ca-71cc-4982-8532-b44b8432182e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_energy",
+    "name": "obj_gamemanager",
     "eventList": [
         {
-            "id": "7b5edbb8-d59d-440f-b811-af262d73e619",
+            "id": "b3105b50-379d-4361-9e8b-b2399664c565",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "6bba8809-bcea-400a-944b-a70a4bbb1e66"
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "3be606ca-71cc-4982-8532-b44b8432182e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "e45585b9-f29a-422d-a2bc-7238fc92566e",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
