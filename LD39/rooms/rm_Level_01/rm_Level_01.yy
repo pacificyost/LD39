@@ -4,12 +4,13 @@
     "mvc": "1.0",
     "name": "rm_Level_01",
     "IsDnD": false,
-    "creationCodeFile": "",
-    "inheritCode": true,
-    "inheritCreationOrder": true,
-    "inheritLayers": true,
+    "creationCodeFile": "RoomCreationCode.gml",
+    "inheritCode": false,
+    "inheritCreationOrder": false,
+    "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        
+        "53ac498f-0230-4be9-9ada-97528d9850c6",
+        "d44b6ee4-8757-461f-b1ed-f09b820862af"
     ],
     "layers": [
         {
@@ -22,20 +23,67 @@
             "grid_y": 32,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
-            "inheritLayerDepth": true,
-            "inheritLayerSettings": true,
-            "inheritSubLayers": true,
-            "inheritVisibility": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
             "layers": [
                 
             ],
-            "m_parentID": "58fe6216-3179-4e87-9770-178400bbcda7",
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
             "name": "Instances",
             "userdefined_depth": false,
             "visible": true,
             "instances": [
-                
+                {
+                    "id": "53ac498f-0230-4be9-9ada-97528d9850c6",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_65D90ADF",
+                    "x": 480,
+                    "y": 320,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_65D90ADF",
+                    "objId": "e54634d0-cbe4-4d50-a29d-8e3d856c1981",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "d44b6ee4-8757-461f-b1ed-f09b820862af",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_26236831",
+                    "x": 576,
+                    "y": 288,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_26236831",
+                    "objId": "5a1c1f66-124e-4b8a-b041-a49030ff32ba",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                }
             ]
         },
         {
@@ -48,14 +96,14 @@
             "grid_y": 32,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
-            "inheritLayerDepth": true,
-            "inheritLayerSettings": true,
-            "inheritSubLayers": true,
-            "inheritVisibility": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
             "layers": [
                 
             ],
-            "m_parentID": "36eb631e-1b0a-45f9-a453-d000524a81a8",
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
             "name": "Background",
             "userdefined_depth": false,
@@ -63,7 +111,7 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4278190080
+                "Value": 4294967295
             },
             "hspeed": 0,
             "htiled": false,
@@ -76,7 +124,7 @@
             "y": 0
         }
     ],
-    "parentId": "af58b2cc-62e1-4527-9958-24e20b999857",
+    "parentId": "00000000-0000-0000-0000-000000000000",
     "physicsSettings": {
         "id": "0903b1d6-2a2a-4742-8bf2-a1f3585fe5b9",
         "modelName": "GMRoomPhysicsSettings",
@@ -85,7 +133,7 @@
         "PhysicsWorldGravityX": 0,
         "PhysicsWorldGravityY": 10,
         "PhysicsWorldPixToMeters": 0.1,
-        "inheritPhysicsSettings": true
+        "inheritPhysicsSettings": false
     },
     "roomSettings": {
         "id": "c136d39e-afd2-44e3-a806-e3269fd523b1",
@@ -93,7 +141,7 @@
         "mvc": "1.0",
         "Height": 768,
         "Width": 1024,
-        "inheritRoomSettings": true,
+        "inheritRoomSettings": false,
         "persistent": false
     },
     "viewSettings": {
@@ -103,7 +151,7 @@
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
         "enableViews": false,
-        "inheritViewSettings": true
+        "inheritViewSettings": false
     },
     "views": [
         {
@@ -114,7 +162,7 @@
             "hport": 768,
             "hspeed": -1,
             "hview": 768,
-            "inherit": true,
+            "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
             "visible": false,
@@ -134,7 +182,7 @@
             "hport": 768,
             "hspeed": -1,
             "hview": 768,
-            "inherit": true,
+            "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
             "visible": false,
@@ -154,7 +202,7 @@
             "hport": 768,
             "hspeed": -1,
             "hview": 768,
-            "inherit": true,
+            "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
             "visible": false,
@@ -174,7 +222,7 @@
             "hport": 768,
             "hspeed": -1,
             "hview": 768,
-            "inherit": true,
+            "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
             "visible": false,
@@ -194,7 +242,7 @@
             "hport": 768,
             "hspeed": -1,
             "hview": 768,
-            "inherit": true,
+            "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
             "visible": false,
@@ -214,7 +262,7 @@
             "hport": 768,
             "hspeed": -1,
             "hview": 768,
-            "inherit": true,
+            "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
             "visible": false,
@@ -234,7 +282,7 @@
             "hport": 768,
             "hspeed": -1,
             "hview": 768,
-            "inherit": true,
+            "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
             "visible": false,
@@ -254,7 +302,7 @@
             "hport": 768,
             "hspeed": -1,
             "hview": 768,
-            "inherit": true,
+            "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
             "visible": false,
