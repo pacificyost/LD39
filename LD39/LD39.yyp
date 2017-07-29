@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "2c6ae132-a322-454b-aa8e-5296aba068d6",
+            "Value": {
+                "id": "6acfb063-bb9f-46a9-984b-03f7f49ff4a9",
+                "resourcePath": "objects\\obj_playerspawn\\obj_playerspawn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2e20a030-d57a-4d57-8576-f213338c795f",
             "Value": {
                 "id": "a958ce76-8377-4e31-a46b-ecef7ca27c25",
@@ -66,8 +74,16 @@
             "Key": "3be606ca-71cc-4982-8532-b44b8432182e",
             "Value": {
                 "id": "3ddc881a-d811-4f60-bd1b-d72cef13fd58",
-                "resourcePath": "objects\\obj_gamemanager\\obj_gamemanager.yy",
+                "resourcePath": "objects\\obj_uimanager\\obj_uimanager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3d54416b-0b4f-4685-bd4d-3fdf0f7df2ba",
+            "Value": {
+                "id": "0d9a71a0-6864-4062-9588-fe6a8a9e1d26",
+                "resourcePath": "scripts\\use_energy\\use_energy.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -279,14 +295,6 @@
             }
         },
         {
-            "Key": "c96d5d02-2eeb-4edd-bdbb-48f2c9c2afb2",
-            "Value": {
-                "id": "6c86b228-426f-4a8b-a3f4-32ad2bcdcd56",
-                "resourcePath": "views\\af58b2cc-62e1-4527-9958-24e20b999857-room.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "bb829f79-0e46-4297-bc75-4775e16036e1",
@@ -400,7 +408,8 @@
         }
     ],
     "script_order": [
-        "73d5c3a6-3b9d-4ea2-93d4-e3eea16aca3a"
+        "73d5c3a6-3b9d-4ea2-93d4-e3eea16aca3a",
+        "3d54416b-0b4f-4685-bd4d-3fdf0f7df2ba"
     ],
     "tutorial": ""
 }
