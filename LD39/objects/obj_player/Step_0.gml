@@ -1,5 +1,3 @@
-/// @description Move
-// You can write your code in this editor
 if (keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up))
 {
 	player_move("up");

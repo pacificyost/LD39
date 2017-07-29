@@ -1,0 +1,1 @@
+energy -= argument[0];
