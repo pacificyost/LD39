@@ -1,1 +1,1 @@
-energy = 5;
+energy = 10;

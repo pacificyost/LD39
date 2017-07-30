@@ -1,2 +1,3 @@
+global.ui_manager = id;
 global.overlay = spr_overlay_max;
-global.overlay_level = 0;
+overlay_level = 0;

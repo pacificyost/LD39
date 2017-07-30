@@ -1,6 +1,6 @@
 if (sprite_exists(global.overlay))
 {
-	draw_sprite(global.overlay,global.overlay_level,0,0);
+	draw_sprite(global.overlay,overlay_level,0,0);
 }
 
 if (instance_number(obj_scoremanager) > 0)
