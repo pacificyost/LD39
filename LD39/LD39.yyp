@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1b388d7b-289a-42f5-bb65-9a9ce73e0971",
+            "Value": {
+                "id": "0e2a5ef5-3a42-4014-a3d8-afde044cc647",
+                "resourcePath": "objects\\obj_scoremanager\\obj_scoremanager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27ed29ff-8a68-4322-bcf2-0f3067e33ae1",
             "Value": {
                 "id": "b78ca7b8-d864-4679-99d1-c6976cf3bb13",
