@@ -10,7 +10,9 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "bc2fc2c0-e0df-43a7-9c28-832623763687",
-        "58153be2-c493-448e-ae4e-cb453fdc188f"
+        "58153be2-c493-448e-ae4e-cb453fdc188f",
+        "8c50401f-6179-4ac8-b09b-30bd9eac4c7d",
+        "aeb28391-8dc7-4d05-a6dd-1174609f15fd"
     ],
     "layers": [
         {
@@ -19,8 +21,8 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "depth": 0,
-            "grid_x": 32,
-            "grid_y": 32,
+            "grid_x": 16,
+            "grid_y": 16,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
@@ -45,8 +47,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_6FCC7622",
-                    "x": 512,
-                    "y": 96,
+                    "x": 128,
+                    "y": 32,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -69,8 +71,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_122B9E9D",
-                    "x": 512,
-                    "y": 224,
+                    "x": 128,
+                    "y": 64,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -80,6 +82,54 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_122B9E9D",
                     "objId": "143cb0f9-bffa-4677-a2a6-5ea3dd7b10cd",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "8c50401f-6179-4ac8-b09b-30bd9eac4c7d",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_6CBABBC4",
+                    "x": 16,
+                    "y": 176,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_6CBABBC4",
+                    "objId": "ad0ddcdf-8629-4af8-b26f-d6c65b09fa16",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "aeb28391-8dc7-4d05-a6dd-1174609f15fd",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_D6202FC",
+                    "x": 64,
+                    "y": 160,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_D6202FC",
+                    "objId": "7e7b628a-63cf-4ad1-b7a4-b42f32e18e00",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
@@ -139,8 +189,8 @@
         "id": "6e7e72ad-d22b-48f4-97c5-42185c64affe",
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
-        "Height": 768,
-        "Width": 1024,
+        "Height": 192,
+        "Width": 256,
         "inheritRoomSettings": false,
         "persistent": false
     },

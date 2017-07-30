@@ -1,1 +1,2 @@
-energy = 101;
+energy = 0;
+start_energy = 100;

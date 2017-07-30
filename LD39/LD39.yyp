@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "06aee9ad-dbdd-4f74-950b-99e872c893a7",
+            "Value": {
+                "id": "55c8c953-4805-4611-b9ec-fc778bf695bb",
+                "resourcePath": "objects\\obj_mine\\obj_mine.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "06bdfda8-8881-482c-9565-e7e7f9a28d3c",
             "Value": {
                 "id": "dfc20861-c7ee-4b04-80bb-4b3cb760c71a",
@@ -420,6 +428,22 @@
                 "id": "25005ba7-6f21-404f-8215-70bedca49780",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ad0ddcdf-8629-4af8-b26f-d6c65b09fa16",
+            "Value": {
+                "id": "b81f9ea9-17af-49c0-94a6-405015d39e19",
+                "resourcePath": "objects\\obj_player_demo\\obj_player_demo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "afa2fea5-9c40-453e-8f88-1594694f9591",
+            "Value": {
+                "id": "a78dd867-2132-4b38-9cf3-b6fa641b3a73",
+                "resourcePath": "sprites\\spr_mine\\spr_mine.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
