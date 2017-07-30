@@ -4,6 +4,9 @@ if (argument[0] == "left" && x - 32 >= 0)
 	{
 		x -= 32;
 		use_energy(global.score_manager.move_energy);
+		global.score_manager.steps_taken++;
+		image_angle=180;
+		show_debug_message(image_angle);
 	}
 }
 if (argument[0] == "right" && x + 32 < room_width)
@@ -12,6 +15,9 @@ if (argument[0] == "right" && x + 32 < room_width)
 	{
 		x += 32;
 		use_energy(global.score_manager.move_energy);
+		global.score_manager.steps_taken++;
+		image_angle=0;
+		show_debug_message(image_angle);
 	}
 }
 if (argument[0] == "up" && y - 32 >= 0)
@@ -20,6 +26,9 @@ if (argument[0] == "up" && y - 32 >= 0)
 	{
 		y -= 32;
 		use_energy(global.score_manager.move_energy);
+		global.score_manager.steps_taken++;
+		image_angle=90;
+		show_debug_message(image_angle);
 	}
 }
 if (argument[0] == "down" && y + 32 < room_height)
@@ -28,5 +37,8 @@ if (argument[0] == "down" && y + 32 < room_height)
 	{
 		y += 32;
 		use_energy(global.score_manager.move_energy);
+		global.score_manager.steps_taken++;
+		image_angle=270;
+		show_debug_message(image_angle);
 	}
 }

@@ -4,12 +4,13 @@
     "mvc": "1.0",
     "name": "rm_GameEnd",
     "IsDnD": false,
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        
+        "bc2fc2c0-e0df-43a7-9c28-832623763687",
+        "58153be2-c493-448e-ae4e-cb453fdc188f"
     ],
     "layers": [
         {
@@ -35,7 +36,54 @@
             "userdefined_depth": false,
             "visible": true,
             "instances": [
-                
+                {
+                    "id": "bc2fc2c0-e0df-43a7-9c28-832623763687",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_6FCC7622",
+                    "x": 512,
+                    "y": 96,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_6FCC7622",
+                    "objId": "fd301140-ab33-4456-9a8c-a0bbd7e00580",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "58153be2-c493-448e-ae4e-cb453fdc188f",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_122B9E9D",
+                    "x": 512,
+                    "y": 224,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_122B9E9D",
+                    "objId": "143cb0f9-bffa-4677-a2a6-5ea3dd7b10cd",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                }
             ]
         },
         {
@@ -63,7 +111,7 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4278190080
+                "Value": 4294967295
             },
             "hspeed": 0,
             "htiled": false,
