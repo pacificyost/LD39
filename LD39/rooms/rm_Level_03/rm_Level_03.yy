@@ -122,9 +122,9 @@
             "wport": 1024,
             "wview": 256,
             "xport": 0,
-            "xview": 750,
+            "xview": 400,
             "yport": 0,
-            "yview": 300
+            "yview": 550
         },
         {
             "id": "508bd0b0-96c9-4c9a-9613-dcf6bbd2d83b",
